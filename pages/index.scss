@@ -3,6 +3,8 @@
 @import '../blocks/variables.scss';
 
 @import '../blocks/page/page.scss';
+@import '../blocks/content/content.scss';
+
 @import '../blocks/section/_theme/section_theme_dark.scss';
 @import '../blocks/section/_theme/section_theme_light.scss';
 
@@ -15,6 +17,15 @@
 @import '../blocks/header/__app/header__app.scss';
 
 @import '../blocks/lead/lead.scss';
+@import '../blocks/lead/__card/lead__card.scss';
+@import '../blocks/lead/__card/_close/lead__card_close.scss';
+@import '../blocks/lead/__comment/lead__comment.scss';
+@import '../blocks/lead/__descr/lead__descr.scss';
+@import '../blocks/lead/__title/lead__title.scss';
+
+@import '../blocks/radio/radio.scss';
+@import '../blocks/radio/__item/radio__item.scss';
+@import '../blocks/radio/__check/radio__check.scss';
 
 @import '../blocks/footer/footer.scss';
 @import '../blocks/footer/__title/footer__title.scss';

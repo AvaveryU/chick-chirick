@@ -373,6 +373,22 @@ template {
   font-family: "Inter", sans-serif;
 }
 
+.content {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .content {
+    max-width: 1440px;
+    padding: 0 160px;
+  }
+}
 .section_theme_dark {
   color: white;
   background-color: #222222;
@@ -440,7 +456,7 @@ template {
   }
 }
 .header__logo {
-  background-image: url("../../../images/header_logo.png");
+  background-image: url("../../../images/header_logo.svg");
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
@@ -534,7 +550,120 @@ template {
   }
 }
 .lead {
-  height: 500px;
+  margin: 70px auto 94px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .lead {
+    margin-bottom: 120px;
+    margin-top: 60px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    max-width: 1440px;
+    grid-template-columns: repeat(2, minmax(1fr, 540px));
+  }
+}
+.lead__card {
+  min-height: 284px;
+  text-align: left;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__card {
+    min-width: 349px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .lead__card {
+    max-width: 540px;
+    min-height: 308px;
+    padding: 40px;
+  }
+}
+.lead__card_close {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__card_close {
+    display: block;
+  }
+}
+.lead__comment {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(17, 17, 17, 0.6);
+  margin: 0;
+}
+
+.lead__descr {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(17, 17, 17, 0.6);
+  margin: 0;
+}
+
+.lead__title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #111;
+  margin: 12px auto 50px;
+}
+
+.radio {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .radio {
+    display: none;
+  }
+}
+.radio__item {
+  border-radius: 50%;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #d9d9d9;
+  margin: 20px 4px 0 0;
+}
+
+.radio__check {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  border: 0;
+  box-sizing: border-box;
+  background: #d9d9d9;
+}
+
+.radio__check:checked + .radio__item {
+  background: #212121;
+  transition: background-color 0.3s;
 }
 
 .footer {

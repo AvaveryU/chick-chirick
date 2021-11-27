@@ -1,0 +1,21 @@
+.lead__card {
+  min-height: 284px;
+  text-align: left;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  .lead__card {
+    min-width: 349px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .lead__card {
+    max-width: 540px;
+    min-height: 308px;
+    padding: 40px;
+  }
+}
