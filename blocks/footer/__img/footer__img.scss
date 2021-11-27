@@ -1,0 +1,27 @@
+.footer__img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer__img {
+    background-image: url("../../../images/footer_photo-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+    height: 502px;
+    width: 250px;
+    position: absolute;
+    right: 69px;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__img {
+    background-image: url("../../../images/footer_photo-mobile_desktop.svg");
+    height: 573px;
+    width: 311px;
+    position: absolute;
+    right: 220px;
+    bottom: 0;
+  }
+}

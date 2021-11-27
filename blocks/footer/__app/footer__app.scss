@@ -1,0 +1,33 @@
+.footer__app {
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  border: 0;
+  height: 44px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #222;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0.3s linear;
+  justify-self: flex-end;
+}
+.footer__app:hover {
+  opacity: 0.93;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .footer__app {
+    max-width: 240px;
+    height: 48px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__app {
+    max-width: 470px;
+    height: 54px;
+  }
+}
