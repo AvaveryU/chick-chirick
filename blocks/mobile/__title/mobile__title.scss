@@ -1,0 +1,23 @@
+.mobile__title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #111;
+  text-align: left;
+  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .mobile__title {
+    font-size: 33px;
+    line-height: 37px;
+    max-width: 648px;
+    padding-left: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mobile__title {
+    font-size: 60px;
+    line-height: 68px;
+    padding-left: 0;
+  }
+}

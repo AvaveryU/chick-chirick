@@ -1,0 +1,23 @@
+.mobile__screen {
+  display: flex;
+  justify-content: center;
+  margin: 70px auto 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+}
+@media screen and (min-width: 768px) {
+  .mobile__screen {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(226px, 1fr));
+    grid-gap: 15px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mobile__screen {
+    margin-top: 120px;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+  }
+}
