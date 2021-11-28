@@ -1,0 +1,14 @@
+.application__title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1440px) {
+  .application__title {
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 500px;
+  }
+}

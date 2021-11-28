@@ -1,0 +1,13 @@
+.form__container {
+  border: 0;
+  margin: 0 auto 50px;
+  padding: 0;
+}
+@media screen and (min-width: 1440px) {
+  .form__container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

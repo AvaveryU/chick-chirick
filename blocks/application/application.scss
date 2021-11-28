@@ -1,0 +1,22 @@
+.application {
+  box-sizing: border-box;
+  min-height: 614px;
+  margin-bottom: 70px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .application {
+    min-height: 611px;
+    padding: 30px 119px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .application {
+    max-width: 1100px;
+    min-height: 628px;
+    padding: 60px;
+    margin-bottom: 120px;
+  }
+}

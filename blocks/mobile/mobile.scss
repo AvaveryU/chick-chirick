@@ -1,16 +1,16 @@
 .mobile {
   margin: 0 auto;
-  min-height: 872px;
+  min-height: 546px;
   box-sizing: border-box;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
   .mobile {
-    min-height: 712px;
+    min-height: 461px;
   }
 }
 @media screen and (min-width: 1440px) {
   .mobile {
-    min-height: 1153px;
+    min-height: 709px;
   }
 }

@@ -22,15 +22,25 @@
 @import '../blocks/lead/__comment/lead__comment.scss';
 @import '../blocks/lead/__descr/lead__descr.scss';
 @import '../blocks/lead/__title/lead__title.scss';
+@import '../blocks/lead/__title-problem/lead__title-problem.scss';
+@import '../blocks/lead/__text/lead__text.scss';
 
 @import '../blocks/mobile/mobile.scss';
-@import '../blocks/mobile/__title/mobile__title.scss';
 @import '../blocks/mobile/__screen/mobile__screen.scss';
 @import '../blocks/mobile/__photo/mobile__photo.scss';
 
 @import '../blocks/radio/radio.scss';
 @import '../blocks/radio/__item/radio__item.scss';
 @import '../blocks/radio/__check/radio__check.scss';
+
+@import '../blocks/application/application.scss';
+@import '../blocks/application/__title/application__title.scss';
+@import '../blocks/application/__subtitle/application__subtitle.scss';
+
+@import '../blocks/form/form.scss';
+@import '../blocks/form/__container/form__container.scss';
+@import '../blocks/form/__item/form__item.scss';
+@import '../blocks/form/__button/form__button.scss';
 
 @import '../blocks/footer/footer.scss';
 @import '../blocks/footer/__title/footer__title.scss';

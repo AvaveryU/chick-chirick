@@ -1,0 +1,20 @@
+.application__subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(17, 17, 17, 0.6);
+  margin: 20px auto 80px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .application__subtitle {
+    margin: 24px auto 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .application__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+}

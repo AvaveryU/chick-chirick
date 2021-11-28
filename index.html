@@ -39,10 +39,10 @@
             <input class="radio__check" type="radio" name="check" id="two">
             <span class="radio__item"></span>
           </label>
+          <h2 class="lead__text">Чик-чирик и ваша каляка превращается
+            в&nbsp;изумительное произведение искусства.</h2>
         </section>
         <section class="mobile">
-          <h2 class="mobile__title">Чик-чирик и ваша каляка превращается
-            в&nbsp;изумительное произведение искусства.</h2>
             <ul class="mobile__screen">
               <li>
                 <img src="./images/section_photo-one.png" alt="каляка один" class="mobile__photo">
@@ -66,6 +66,45 @@
               <input class="radio__check" type="radio" name="screen" id="three-screen">
               <span class="radio__item"></span>
             </label>
+        </section>
+        <section class="lead">
+          <div class="lead__card">
+            <p class="lead__comment">Быстро</p>
+            <h2 class="lead__title">Проблем с рисованием — нет</h2>
+            <p class="lead__descr">Рисуйте в приложении доступными
+              кистями: карандаш, маркер, линер, масляная кисть и многие другие...</p>
+          </div>
+          <div class="lead__card lead__card_close">
+            <p class="lead__comment">Просто</p>
+            <h2 class="lead__title lead__title-problem">Нарисовали, преобразовали, сохранили</h2>
+            <p class="lead__descr">Раз, два, три, больше нечего тут рассказать.</p>
+          </div>
+          <label for="radio-card_one" class="radio">
+            <input class="radio__check" type="radio" name="card" id="one-card" checked="">
+            <span class="radio__item"></span>
+          </label>
+          <label for="radio-card_two" class="radio">
+            <input class="radio__check" type="radio" name="card" id="two-card">
+            <span class="radio__item"></span>
+          </label>
+          <h2 class="lead__text">Качайте приложение и улучшайте свои художества,
+            а потом хвастайтесь ими!</h2>
+        </section>
+        <section class="application">
+          <h3 class="application__title">Хотите нам что-то посоветовать?</h3>
+          <p class="application__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
+          <form class="form" id="form-application">
+            <fieldset class="form__container">
+              <label for="heading" class="form__label"></label>
+              <input type="text" id="heading" name="heading" class="form__item" placeholder="Ваше Имя" required="">
+              <label for="email" class="form__label"></label>
+              <input type="email" id="email" name="email" class="form__item" placeholder="Контактный Email" required="">
+              <label for="main-text" class="form__label"></label>
+              <textarea id="main-text" name="main-text" class="form__item"
+              placeholder="Сообщение" required=""></textarea>
+            </fieldset>
+            <button form="form-application" type="submit" class="form__button">Оставить заявку</button>
+          </form>
         </section>
       </main>
       <footer class="footer section_theme_dark">
