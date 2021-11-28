@@ -1,50 +1,50 @@
-@import "../vendor/normalize";
-@import "../vendor/fonts";
-@import "../blocks/variables.scss";
+@import '../vendor/normalize';
+@import '../vendor/fonts';
+@import '../blocks/variables.scss';
 
-@import "../blocks/page/page.scss";
-@import "../blocks/content/content.scss";
+@import '../blocks/page/page.scss';
+@import '../blocks/content/content.scss';
 
-@import "../blocks/section/_theme/section_theme_dark.scss";
-@import "../blocks/section/_theme/section_theme_light.scss";
+@import '../blocks/section/_theme/section_theme_dark.scss';
+@import '../blocks/section/_theme/section_theme_light.scss';
 
-@import "../blocks/header/header.scss";
-@import "../blocks/header/__img/header__img.scss";
-@import "../blocks/header/__logo/header__logo.scss";
-@import "../blocks/header/__title/header__title.scss";
-@import "../blocks/header/__subtitle/header__subtitle.scss";
-@import "../blocks/header/__container/header__container.scss";
-@import "../blocks/header/__app/header__app.scss";
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__img/header__img.scss';
+@import '../blocks/header/__logo/header__logo.scss';
+@import '../blocks/header/__title/header__title.scss';
+@import '../blocks/header/__subtitle/header__subtitle.scss';
+@import '../blocks/header/__container/header__container.scss';
+@import '../blocks/header/__app/header__app.scss';
 
-@import "../blocks/lead/lead.scss";
-@import "../blocks/lead/__card/lead__card.scss";
-@import "../blocks/lead/__card/_close/lead__card_close.scss";
-@import "../blocks/lead/__comment/lead__comment.scss";
-@import "../blocks/lead/__descr/lead__descr.scss";
-@import "../blocks/lead/__title/lead__title.scss";
-@import "../blocks/lead/__title-problem/lead__title-problem.scss";
-@import "../blocks/lead/__text/lead__text.scss";
+@import '../blocks/lead/lead.scss';
+@import '../blocks/lead/__card/lead__card.scss';
+@import '../blocks/lead/__card/_close/lead__card_close.scss';
+@import '../blocks/lead/__comment/lead__comment.scss';
+@import '../blocks/lead/__descr/lead__descr.scss';
+@import '../blocks/lead/__title/lead__title.scss';
+@import '../blocks/lead/__title-problem/lead__title-problem.scss';
+@import '../blocks/lead/__text/lead__text.scss';
 
-@import "../blocks/mobile/mobile.scss";
-@import "../blocks/mobile/__screen/mobile__screen.scss";
-@import "../blocks/mobile/__photo/mobile__photo.scss";
+@import '../blocks/mobile/mobile.scss';
+@import '../blocks/mobile/__screen/mobile__screen.scss';
+@import '../blocks/mobile/__photo/mobile__photo.scss';
 
-@import "../blocks/radio/radio.scss";
-@import "../blocks/radio/__item/radio__item.scss";
-@import "../blocks/radio/__check/radio__check.scss";
+@import '../blocks/radio/radio.scss';
+@import '../blocks/radio/__item/radio__item.scss';
+@import '../blocks/radio/__check/radio__check.scss';
 
-@import "../blocks/application/application.scss";
-@import "../blocks/application/__title/application__title.scss";
-@import "../blocks/application/__subtitle/application__subtitle.scss";
+@import '../blocks/application/application.scss';
+@import '../blocks/application/__title/application__title.scss';
+@import '../blocks/application/__subtitle/application__subtitle.scss';
 
-@import "../blocks/form/form.scss";
-@import "../blocks/form/__container/form__container.scss";
-@import "../blocks/form/__item/form__item.scss";
-@import "../blocks/form/__button/form__button.scss";
+@import '../blocks/form/form.scss';
+@import '../blocks/form/__container/form__container.scss';
+@import '../blocks/form/__item/form__item.scss';
+@import '../blocks/form/__button/form__button.scss';
 
-@import "../blocks/footer/footer.scss";
-@import "../blocks/footer/__title/footer__title.scss";
-@import "../blocks/footer/__subtitle/footer__subtitle.scss";
-@import "../blocks/footer/__app/footer__app.scss";
-@import "../blocks/footer/__img/footer__img.scss";
-@import "../blocks/footer/__container/footer__container.scss";
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__title/footer__title.scss';
+@import '../blocks/footer/__subtitle/footer__subtitle.scss';
+@import '../blocks/footer/__app/footer__app.scss';
+@import '../blocks/footer/__img/footer__img.scss';
+@import '../blocks/footer/__container/footer__container.scss';
