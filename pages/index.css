@@ -426,7 +426,7 @@ template {
   }
 }
 .header__img {
-  background-image: url("../../../images/header_photo.png");
+  background-image: url(".../../../images/header_photo.png");
   width: 260px;
   height: 522px;
   background-repeat: no-repeat;
@@ -1037,7 +1037,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .footer__img {
-    background-image: url("../../../images/footer_photo.png");
+    background-image: url(".../../../images/footer_photo.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
