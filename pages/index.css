@@ -456,7 +456,7 @@ template {
   }
 }
 .header__logo {
-  background-image: url("../../images/header_logo.svg");
+  background-image: url(".../../../images/header_logo.svg");
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
