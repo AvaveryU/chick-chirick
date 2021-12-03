@@ -15,34 +15,34 @@
           <p class="header__subtitle">С помощью нашего приложения вы можете чиркануть&nbsp;каляку и получить шедевр.</p>
         </div>
         <div class="header__img"></div>
-        <button type="submit" class="header__app" form="app-form">Подробнее</button>
+        <button type="button" class="header__app">Подробнее</button>
       </header>
       <main class="content section_theme_light">
         <section class="lead">
           <div class="lead__card">
             <p class="lead__comment">AI</p>
-            <h2 class="lead__title">Умный интелект приложения</h2>
+            <h2 class="lead__title lead__title_width">Умный интелект приложения</h2>
             <p class="lead__descr">С помощью AI приложение анализирует картины мастеров 
               и современных практиков рисования, и достраивает картину за вас.</p>
           </div>
           <div class="lead__card lead__card_close">
             <p class="lead__comment">Ч/Б и Цвет</p>
-            <h2 class="lead__title">Рисуйте в любом стиле</h2>
+            <h2 class="lead__title lead__title_indent">Рисуйте в любом стиле</h2>
             <p class="lead__descr">Будь то карандашная каляка-маляка или цветное
               произведение, приложение поможет в любой ситуации.</p>
           </div>
           <label for="radio-AI" class="radio">
-            <input class="radio__check" type="radio" name="check" id="one" checked="">
+            <input class="radio__check" type="radio" name="check" id="radio-AI" checked="">
             <span class="radio__item"></span>
           </label>
           <label for="radio-paint" class="radio">
-            <input class="radio__check" type="radio" name="check" id="two">
+            <input class="radio__check" type="radio" name="check" id="radio-paint">
             <span class="radio__item"></span>
           </label>
           <h2 class="lead__text">Чик-чирик и ваша каляка превращается
             в&nbsp;изумительное произведение искусства.</h2>
         </section>
-        <section class="mobile">
+        <section class="mobile" aria-label="Каляки">
             <ul class="mobile__screen">
               <li>
                 <img src="./images/section_photo-one.png" alt="каляка один" class="mobile__photo">
@@ -54,16 +54,16 @@
                 <img src="./images/section_photo-three.png" alt="каляка три" class="mobile__photo lead__card_close">
               </li>
             </ul>
-              <label for="radio-AI" class="radio">
-              <input class="radio__check" type="radio" name="screen" id="one-screen" checked="">
+            <label for="radio_img-one" class="radio">
+              <input class="radio__check" type="radio" name="screen" id="radio_img-one" checked="">
               <span class="radio__item"></span>
             </label>
-            <label for="radio-paint" class="radio">
-              <input class="radio__check" type="radio" name="screen" id="two-screen">
+            <label for="radio_img-two" class="radio">
+              <input class="radio__check" type="radio" name="screen" id="radio_img-two">
               <span class="radio__item"></span>
             </label>
-            <label for="radio-face" class="radio">
-              <input class="radio__check" type="radio" name="screen" id="three-screen">
+            <label for="radio_img-three" class="radio">
+              <input class="radio__check" type="radio" name="screen" id="radio_img-three">
               <span class="radio__item"></span>
             </label>
         </section>
@@ -80,20 +80,20 @@
             <p class="lead__descr">Раз, два, три, больше нечего тут рассказать.</p>
           </div>
           <label for="radio-card_one" class="radio">
-            <input class="radio__check" type="radio" name="card" id="one-card" checked="">
+            <input class="radio__check" type="radio" name="card" id="radio-card_one" checked="">
             <span class="radio__item"></span>
           </label>
           <label for="radio-card_two" class="radio">
-            <input class="radio__check" type="radio" name="card" id="two-card">
+            <input class="radio__check" type="radio" name="card" id="radio-card_two">
             <span class="radio__item"></span>
           </label>
           <h2 class="lead__text">Качайте приложение и улучшайте свои художества,
             а потом хвастайтесь ими!</h2>
         </section>
         <section class="application">
-          <h3 class="application__title">Хотите нам что-то посоветовать?</h3>
+          <h2 class="application__title">Хотите нам что-то посоветовать?</h2>
           <p class="application__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
-          <form class="form" id="form-application">
+          <form class="form" id="form-application" name="subscrible">
             <fieldset class="form__container">
               <label for="heading" class="form__label"></label>
               <input type="text" id="heading" name="heading" class="form__item" placeholder="Ваше Имя" required="">
@@ -112,7 +112,8 @@
           <h2 class="footer__title">Хотите скачать приложение?</h2>
           <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
         </div>
-          <button type="submit" class="footer__app" form="app-form">Уже скоро!</button>
+          <button type="button" class="footer__app">Уже скоро!</button>
           <div class="footer__img"></div>
         </footer>
+        <script src="./scripts/index.js"></script>
   </body>

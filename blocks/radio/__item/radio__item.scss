@@ -1,8 +1,12 @@
 .radio__item {
   border-radius: 50%;
+  position: relative;
   display: inline-block;
   width: 4px;
   height: 4px;
   background: #d9d9d9;
   margin: 20px 4px 0 0;
+}
+.radio__item:hover {
+  cursor: pointer;
 }

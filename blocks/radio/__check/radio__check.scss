@@ -11,6 +11,6 @@
   background: #d9d9d9;
 }
 .radio__check:checked + .radio__item {
-  background: #212121;
   transition: background-color 0.3s;
+  background: #212121;
 }

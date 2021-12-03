@@ -370,7 +370,7 @@ template {
   box-sizing: border-box;
   margin: 0;
   padding: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .content {
@@ -612,6 +612,11 @@ template {
   margin: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .lead__comment {
+    font-size: 18px;
+  }
+}
 .lead__descr {
   font-weight: 400;
   font-size: 15px;
@@ -620,6 +625,12 @@ template {
   margin: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .lead__descr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 .lead__title {
   font-weight: 600;
   font-size: 26px;
@@ -628,7 +639,25 @@ template {
   margin: 12px auto 50px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .lead__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    padding-left: -1px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .lead__title_indent {
+    margin-bottom: 78px;
+  }
+}
+.lead__title_width {
+  max-width: 270px;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1238px) {
   .lead__title-problem {
     margin-bottom: 19px;
   }
@@ -738,11 +767,16 @@ template {
 }
 .radio__item {
   border-radius: 50%;
+  position: relative;
   display: inline-block;
   width: 4px;
   height: 4px;
   background: #d9d9d9;
   margin: 20px 4px 0 0;
+}
+
+.radio__item:hover {
+  cursor: pointer;
 }
 
 .radio__check {
@@ -759,8 +793,8 @@ template {
 }
 
 .radio__check:checked + .radio__item {
-  background: #212121;
   transition: background-color 0.3s;
+  background: #212121;
 }
 
 .application {
