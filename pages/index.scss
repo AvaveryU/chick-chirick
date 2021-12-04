@@ -1,6 +1,7 @@
 @import '../vendor/normalize';
 @import '../vendor/fonts';
 @import '../blocks/variables.scss';
+@import '../blocks/mixines.scss';
 
 @import '../blocks/page/page.scss';
 @import '../blocks/content/content.scss';
@@ -33,7 +34,7 @@
 
 @import '../blocks/radio/radio.scss';
 @import '../blocks/radio/__item/radio__item.scss';
-@import '../blocks/radio/__check/radio__check.scss';
+@import '../blocks/radio/__item/_check/radio__item_check.scss';
 
 @import '../blocks/application/application.scss';
 @import '../blocks/application/__title/application__title.scss';
