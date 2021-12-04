@@ -1,5 +1,5 @@
 .lead__card_close {
-  display: none;
+  @include DispNon;
 }
 @media screen and (min-width: 768px) {
   .lead__card_close {

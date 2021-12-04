@@ -1,64 +1,50 @@
+/*переменные для секции с первой группой карточек*/
 const sectLead = document.querySelector('.lead');
 const cardsLead = sectLead.querySelectorAll('.lead__card');
 const Btn = sectLead.querySelectorAll('.radio__item');
-
+/*переменные для секции со второй группой карточек*/
 const sectLeadCards = document.querySelector('.lead__cards');
 const cardsLeadCards = sectLeadCards.querySelectorAll('.lead__card');
 const BtnLeadCards = sectLeadCards.querySelectorAll('.radio__item');
-
+/*переменные для секции mobile*/
 const sectMobile = document.querySelector('.mobile');
 const cardsMobile = sectMobile.querySelectorAll('.mobile__photo');
 const BtnMobile = sectMobile.querySelectorAll('.radio__item');
 
-Btn.forEach((item, index) => {
+/*функция для переключения карточек*/
+function clickCard(card) {
+  card.forEach((element) => {
+    element.classList.toggle('lead__card_close')
+  });
+};
+
+Btn.forEach((item) => {
   item.addEventListener('click', (evt) => {
-    const activeBtn = sectLead.querySelector('.radio__item_check');
-    activeBtn.classList.remove('radio__item_check');
+    const checkButton = sectLead.querySelector('.radio__item_check');
+    checkButton.classList.remove('radio__item_check');
     evt.target.classList.add('radio__item_check');
-    cardsLead.forEach((elem, i) => {
-      if (index === i) {
-        elem.classList.remove('lead__card_close');
-      } else {
-        elem.classList.add('lead__card_close');
-      }
-    });
+    clickCard(cardsLead)
   });
 });
-BtnLeadCards.forEach((item, index) => {
+BtnLeadCards.forEach((item) => {
   item.addEventListener('click', (evt) => {
-    const activeBtn = sectLeadCards.querySelector('.radio__item_check');
-    activeBtn.classList.remove('radio__item_check');
+    const checkButton = sectLeadCards.querySelector('.radio__item_check');
+    checkButton.classList.remove('radio__item_check');
     evt.target.classList.add('radio__item_check');
-    cardsLeadCards.forEach((elem, i) => {
-      if (index === i) {
-        elem.classList.remove('lead__card_close');
-      } else {
-        elem.classList.add('lead__card_close');
-      }
-    });
+    clickCard(cardsLeadCards)
   });
 });
 BtnMobile.forEach((item, index) => {
   item.addEventListener('click', (evt) => {
-    const activeBtn = sectMobile.querySelector('.radio__item_check');
-    activeBtn.classList.remove('radio__item_check');
+    const checkButton = sectMobile.querySelector('.radio__item_check');
+    checkButton.classList.remove('radio__item_check');
     evt.target.classList.add('radio__item_check');
-    cardsMobile.forEach((elem, i) => {
+    cardsMobile.forEach((element, i) => {
       if (index === i) {
-        elem.classList.remove('lead__card_close');
+        element.classList.remove('lead__card_close');
       } else {
-        elem.classList.add('lead__card_close');
+        element.classList.add('lead__card_close');
       }
     });
   });
 });
-/*функция для активной/неактивной кнопки*/
-/*function handleClickFunction(button) {
-  button.classList.toggle('radio__item_check');
-};
-
-Btn.forEach(function (button) {
-  button.addEventListener('click', function() {
-    button.classList.toggle('radio__item_check');
-  });
-});*/

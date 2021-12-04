@@ -11,31 +11,31 @@
   font-size: 12px;
   line-height: 24px;
 }
-.form__item::placeholder {
+&::placeholder {
   color: rgba(17, 17, 17, 0.3);
 }
-.form__item:nth-last-child(1) {
+&:nth-last-child(1) {
   height: 130px;
   margin: 0;
 }
-.form__item:hover {
+&:hover {
   cursor: pointer;
 }
-.form__item:focus {
+&:focus {
   cursor: pointer;
   outline-color: #e4e4e4;
 }
-.form__item:focus::placeholder {
+&:focus::placeholder {
   opacity: 0;
 }
 @media screen and (min-width: 1440px) {
   .form__item {
     max-width: 470px;
   }
-  .form__item:nth-last-child(1) {
+  &:nth-last-child(1) {
     max-width: 980px;
   }
-  .form__item:nth-last-child(3) {
+  &:nth-last-child(3) {
     margin-left: 40px;
   }
 }
