@@ -1,12 +1,19 @@
 .radio__item {
   border-radius: 50%;
-  position: relative;
+  border: 0;
+  padding: 0;
   display: inline-block;
   width: 4px;
   height: 4px;
   background: #d9d9d9;
-  margin: 20px 4px 0 0;
+  margin: 20px 0 0;
+  box-sizing: border-box;
 }
 .radio__item:hover {
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .radio__item {
+    display: none;
+  }
 }
