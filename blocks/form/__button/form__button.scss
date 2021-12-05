@@ -13,7 +13,7 @@
   transition: 0.3 linear;
   opacity: 1;
 }
-.form__button:hover {
+&:hover {
   opacity: 0.85;
   cursor: pointer;
 }
