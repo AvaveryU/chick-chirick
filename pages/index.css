@@ -370,7 +370,7 @@ template {
   box-sizing: border-box;
   margin: 0;
   padding: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .content {
@@ -456,7 +456,7 @@ template {
   }
 }
 .header__logo {
-  background-image: url("../../../images/header_logo.svg");
+  background-image: url("../images/header_logo.svg");
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
@@ -612,6 +612,11 @@ template {
   margin: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .lead__comment {
+    font-size: 18px;
+  }
+}
 .lead__descr {
   font-weight: 400;
   font-size: 15px;
@@ -620,6 +625,12 @@ template {
   margin: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .lead__descr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 .lead__title {
   font-weight: 600;
   font-size: 26px;
@@ -628,7 +639,24 @@ template {
   margin: 12px auto 50px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .lead__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .lead__title_indent {
+    margin-bottom: 78px;
+  }
+}
+.lead__title_width {
+  max-width: 270px;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1238px) {
   .lead__title-problem {
     margin-bottom: 19px;
   }
@@ -724,13 +752,6 @@ template {
     height: 709px;
   }
 }
-.radio {
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  line-height: 0;
-}
-
 @media screen and (min-width: 768px) {
   .radio {
     display: none;
@@ -738,29 +759,27 @@ template {
 }
 .radio__item {
   border-radius: 50%;
+  border: 0;
+  padding: 0;
   display: inline-block;
   width: 4px;
   height: 4px;
   background: #d9d9d9;
-  margin: 20px 4px 0 0;
-}
-
-.radio__check {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  position: absolute;
-  clip: rect(0 0 0 0);
-  border: 0;
+  margin: 20px 0 0;
   box-sizing: border-box;
-  background: #d9d9d9;
 }
 
-.radio__check:checked + .radio__item {
+.radio__item:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .radio__item {
+    display: none;
+  }
+}
+.radio__item_check {
   background: #212121;
-  transition: background-color 0.3s;
 }
 
 .application {
